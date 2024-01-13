@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirect Page</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style_redirect.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Verkorte URLs</h1>
+    {% if urls %}
+    <ul>
+      {% for url in urls %}
+      <li>
+        <a href="{{ url[0] }}" target="_blank">{{ url[1] }}</a> -
+        <a href="{{ url[0] }}" target="_blank">{{ url[0] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>Geen urls beschikbaar</p>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,103 @@
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:13] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:13] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+WARNING:root:Input: GET, ImmutableMultiDict([])
+WARNING:root:Output: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link
+      rel="stylesheet"
+      href="/static/style.css"
+    />
+  </head>
+  <body>
+    <form method="post" action="/">
+      <input type="text" name="input_url" placeholder="Enter URL" />
+      <button type="submit">Shorten URL</button>
+    </form>
+  </body>
+</html>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:16] "GET / HTTP/1.1" 200 -
+WARNING:root:Input: POST, ImmutableMultiDict([('input_url', 'https://sqliteviewer.app/#/url.db/table/urls/')])
+WARNING:root:Output: <Response 205 bytes [302 FOUND]>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:21] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:21] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 10:58:21] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+WARNING:root:Input: GET, ImmutableMultiDict([])
+WARNING:root:Output: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link
+      rel="stylesheet"
+      href="/static/style.css"
+    />
+  </head>
+  <body>
+    <form method="post" action="/">
+      <input type="text" name="input_url" placeholder="Enter URL" />
+      <button type="submit">Shorten URL</button>
+    </form>
+  </body>
+</html>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:24] "GET / HTTP/1.1" 200 -
+WARNING:root:Input: POST, ImmutableMultiDict([('input_url', 'https://sqliteviewer.app/#/url.db/table/urls/')])
+WARNING:root:Output: <Response 205 bytes [302 FOUND]>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:27] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:27] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:27] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+WARNING:root:Input: POST, ImmutableMultiDict([('input_url', 'https://bard.google.com/chat/e05b2ac048f65be7?hl=nl-BE')])
+WARNING:root:Output: <Response 205 bytes [302 FOUND]>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:46] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:46] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:00:46] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+WARNING:root:Input: POST, ImmutableMultiDict([('input_url', 'https://www.ap.be/')])
+WARNING:root:Output: <Response 205 bytes [302 FOUND]>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:12] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:12] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:12] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+WARNING:root:Input: POST, ImmutableMultiDict([('input_url', 'https://www.ap.be/')])
+WARNING:root:Output: <Response 205 bytes [302 FOUND]>
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:20] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:20] "GET /redirect HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Dec/2023 11:01:20] "[36mGET /static/style_redirect.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325
+INFO:werkzeug: * Detected change in 'E:\\School\\Python advanced\\URL_Shortner\\eindopdracht\\eindversie.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 182-259-325

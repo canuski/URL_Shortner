@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirect Page</title>
+
+    <style>
+      body {
+        background-color: #0077cc; /* Ocean Blue */
+        color: #fff; /* White text */
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+
+      h1 {
+        color: #004080; /* Darker Blue */
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #66a3ff; /* Light Blue */
+      }
+
+      a:hover {
+        color: #004080; /* Darker Blue on hover */
+      }
+
+      p {
+        font-style: italic;
+        color: #66a3ff; /* Light Blue */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Verkorte URLs</h1>
+    {% if urls %}
+    <ul>
+      {% for url in urls %}
+      <li>
+        <a href="{{ url[0] }}" target="_blank">{{ url[1] }}</a> -
+        <a href="{{ url[0] }}" target="_blank">{{ url[0] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>Geen urls beschikbaar</p>
+    {% endif %}
+  </body>
+</html>
